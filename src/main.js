@@ -1,4 +1,4 @@
-/* mvvm.js 入口函数 */
+/* main.js 入口函数 */
 
 import Observer from './modules/observer'
 import Compile from './modules/compile'
