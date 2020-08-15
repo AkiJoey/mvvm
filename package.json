@@ -1,0 +1,24 @@
+{
+  "name": "@akijoey/mvvm",
+  "version": "0.0.1",
+  "description": "Simple mvvm implement.",
+  "main": "dist/mvvm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akijoey/mvvm.git"
+  },
+  "author": "AkiJoey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akijoey/mvvm/issues"
+  },
+  "homepage": "https://github.com/akijoey/mvvm#readme",
+  "devDependencies": {
+    "rollup": "^2.26.0"
+  }
+}
