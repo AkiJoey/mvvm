@@ -1,6 +1,6 @@
 {
   "name": "@akijoey/mvvm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple mvvm implement.",
   "main": "dist/mvvm.js",
   "scripts": {
