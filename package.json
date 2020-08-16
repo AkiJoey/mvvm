@@ -1,8 +1,11 @@
 {
   "name": "@akijoey/mvvm",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple mvvm implement.",
   "main": "dist/mvvm.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -13,6 +16,9 @@
     "type": "git",
     "url": "git+https://github.com/akijoey/mvvm.git"
   },
+  "keywords": [
+    "mvvm"
+  ],
   "author": "AkiJoey",
   "license": "MIT",
   "bugs": {
