@@ -1,8 +1,9 @@
 // rollup.config.js
 
-import pkg from './package.json';
+import pkg from './package.json'
 
-import { eslint } from 'rollup-plugin-eslint';
+import { eslint } from 'rollup-plugin-eslint'
+import { terser } from 'rollup-plugin-terser'
 
 export default {
   input: 'src/main.js',
@@ -16,6 +17,7 @@ export default {
       throwOnError: true,
       throwOnWarning: true,
       include: ['src/**']
-    })
+    }),
+    terser()
   ]
 }

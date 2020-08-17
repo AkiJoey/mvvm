@@ -1,6 +1,6 @@
 {
   "name": "@akijoey/mvvm",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Simple mvvm implement.",
   "main": "dist/mvvm.js",
   "files": [
@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/akijoey/mvvm#readme",
   "devDependencies": {
-    "eslint": "^7.7.0",
     "rollup": "^2.26.0",
-    "rollup-plugin-eslint": "^7.0.0"
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0"
   }
 }
