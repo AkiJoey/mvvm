@@ -234,7 +234,7 @@
     }
   };
 
-  /* mvvm.js 入口函数 */
+  /* main.js 入口函数 */
 
   const MVVM = function(options) {
     this.$el = options.el;
